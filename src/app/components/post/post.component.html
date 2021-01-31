@@ -1,0 +1,4 @@
+<div *ngIf="post.id<=10">
+  {{post.id}}.{{post.title}}--{{post.userId}}
+  <button (click)="getPost(post)"> post</button>
+</div>
